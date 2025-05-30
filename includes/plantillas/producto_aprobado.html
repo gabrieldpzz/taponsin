@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Producto Aprobado</title>
+</head>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 40px 20px; margin: 0;">
+  <div style="max-width: 600px; margin: 0 auto; background: #ffffff; padding: 40px; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+    
+    <!-- Header con icono -->
+    <div style="text-align: center; margin-bottom: 30px;">
+      <div style="background: #10b981; width: 60px; height: 60px; border-radius: 50%; margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; font-size: 24px;">
+        ✅
+      </div>
+      <h2 style="color: #1f2937; margin: 0; font-size: 28px; font-weight: 600; line-height: 1.3;">
+        Tu producto ha sido aprobado
+      </h2>
+    </div>
+
+    <!-- Contenido principal -->
+    <div style="color: #4b5563; font-size: 16px; line-height: 1.6; margin-bottom: 30px;">
+      <p style="margin: 0 0 20px 0;">
+        Hola <strong style="color: #1f2937;">{NOMBRE_PROVEEDOR}</strong>,
+      </p>
+      <p style="margin: 0 0 25px 0;">
+        ¡Excelentes noticias! El producto <strong style="color: #1f2937;">{NOMBRE_PRODUCTO}</strong> ha sido aprobado y ahora está visible en la tienda para que todos los clientes puedan verlo y comprarlo.
+      </p>
+    </div>
+
+    <!-- Imagen del producto -->
+    <div style="text-align: center; margin: 30px 0;">
+      <img src="{IMAGEN}" alt="Imagen del producto" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border: 3px solid #f3f4f6;">
+    </div>
+
+    <!-- Mensaje de agradecimiento -->
+    <div style="background: #f8fafc; padding: 25px; border-radius: 12px; border-left: 4px solid #10b981; margin: 30px 0;">
+      <p style="margin: 0; color: #374151; font-size: 16px; font-style: italic;">
+        "Gracias por confiar en TaponShop. Estamos emocionados de ver tu producto en nuestra plataforma."
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <div style="text-align: center; margin-top: 40px; padding-top: 30px; border-top: 1px solid #e5e7eb;">
+      <p style="margin: 0; color: #9ca3af; font-size: 14px;">
+        Equipo de TaponShop
+      </p>
+    </div>
+
+  </div>
+</body>
+</html>

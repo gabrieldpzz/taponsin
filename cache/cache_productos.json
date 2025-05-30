@@ -1,0 +1,1178 @@
+[
+    {
+        "id": 2,
+        "nombre": "Camiseta FC Barcelona 25\/26",
+        "descripcion": "Camiseta oficial del FC Barcelona temporada 2025\/2026.",
+        "precio": "109.99",
+        "categoria_id": 1
+    },
+    {
+        "id": 18,
+        "nombre": "Audífonos Bluetooth Sony WH-CH520",
+        "descripcion": "Audífonos inalámbricos con sonido envolvente, ideales para uso diario.",
+        "precio": "49.99",
+        "categoria_id": 2
+    },
+    {
+        "id": 19,
+        "nombre": "Teclado Mecánico Redragon K552",
+        "descripcion": "Teclado mecánico retroiluminado ideal para gaming.",
+        "precio": "42.50",
+        "categoria_id": 2
+    },
+    {
+        "id": 20,
+        "nombre": "Mouse Logitech MX Master 3S",
+        "descripcion": "Mouse inalámbrico de alta precisión para trabajo profesional.",
+        "precio": "99.99",
+        "categoria_id": 2
+    },
+    {
+        "id": 21,
+        "nombre": "Bocina Bluetooth JBL Flip 6",
+        "descripcion": "Parlante portátil resistente al agua con sonido potente.",
+        "precio": "129.99",
+        "categoria_id": 2
+    },
+    {
+        "id": 22,
+        "nombre": "Cámara Web Logitech C920 HD",
+        "descripcion": "Cámara web Full HD 1080p para videollamadas y streaming.",
+        "precio": "69.99",
+        "categoria_id": 2
+    },
+    {
+        "id": 23,
+        "nombre": "Disco Duro Externo WD 1TB",
+        "descripcion": "Disco duro externo portátil USB 3.0.",
+        "precio": "54.99",
+        "categoria_id": 2
+    },
+    {
+        "id": 24,
+        "nombre": "Batería portátil Anker 20000mAh",
+        "descripcion": "Cargador portátil con carga rápida PowerIQ.",
+        "precio": "45.00",
+        "categoria_id": 2
+    },
+    {
+        "id": 25,
+        "nombre": "Reloj Inteligente Amazfit Bip U Pro",
+        "descripcion": "Smartwatch con GPS y monitoreo de salud.",
+        "precio": "59.99",
+        "categoria_id": 2
+    },
+    {
+        "id": 26,
+        "nombre": "Monitor Curvo Samsung 24”",
+        "descripcion": "Monitor Full HD 75Hz con diseño curvo para mayor inmersión.",
+        "precio": "139.99",
+        "categoria_id": 2
+    },
+    {
+        "id": 27,
+        "nombre": "Lámpara LED USB para escritorio",
+        "descripcion": "Lámpara flexible con varios niveles de brillo.",
+        "precio": "12.99",
+        "categoria_id": 2
+    },
+    {
+        "id": 28,
+        "nombre": "Adaptador USB-C a HDMI 4K",
+        "descripcion": "Adaptador para conectar laptops a monitores HDMI.",
+        "precio": "17.99",
+        "categoria_id": 2
+    },
+    {
+        "id": 29,
+        "nombre": "Base Enfriadora para Laptop",
+        "descripcion": "Soporte con ventiladores para mantener tu laptop fresca.",
+        "precio": "24.50",
+        "categoria_id": 2
+    },
+    {
+        "id": 30,
+        "nombre": "Mini Proyector YG300 Pro",
+        "descripcion": "Proyector LED compacto ideal para películas y presentaciones.",
+        "precio": "59.00",
+        "categoria_id": 2
+    },
+    {
+        "id": 31,
+        "nombre": "Soporte Ajustable para Celular",
+        "descripcion": "Soporte universal con inclinación ajustable.",
+        "precio": "8.99",
+        "categoria_id": 2
+    },
+    {
+        "id": 32,
+        "nombre": "Router WiFi TP-Link AC1200",
+        "descripcion": "Router inalámbrico de doble banda con 4 antenas.",
+        "precio": "38.90",
+        "categoria_id": 2
+    },
+    {
+        "id": 33,
+        "nombre": "Camiseta FC Barcelona Cactus Jack 24\/25",
+        "descripcion": "Camiseta oficial del FC Barcelona temporada 2024\/2025.",
+        "precio": "89.99",
+        "categoria_id": 1
+    },
+    {
+        "id": 34,
+        "nombre": "Camiseta Real Madrid 24\/25",
+        "descripcion": "Jersey oficial del Real Madrid, diseño moderno y elegante.",
+        "precio": "94.99",
+        "categoria_id": 1
+    },
+    {
+        "id": 35,
+        "nombre": "Camiseta Manchester United 24\/25",
+        "descripcion": "Equipación original del Man Utd para fans y coleccionistas.",
+        "precio": "89.00",
+        "categoria_id": 1
+    },
+    {
+        "id": 36,
+        "nombre": "Camiseta Juventus 24\/25",
+        "descripcion": "Camiseta oficial de Juventus FC con detalles dorados.",
+        "precio": "84.95",
+        "categoria_id": 1
+    },
+    {
+        "id": 37,
+        "nombre": "Camiseta PSG 24\/25",
+        "descripcion": "Equipación del Paris Saint-Germain inspirada en la cultura urbana.",
+        "precio": "92.00",
+        "categoria_id": 1
+    },
+    {
+        "id": 38,
+        "nombre": "Camiseta Bayern Múnich 24\/25",
+        "descripcion": "Camiseta roja con detalles en blanco, tradición alemana.",
+        "precio": "89.50",
+        "categoria_id": 1
+    },
+    {
+        "id": 39,
+        "nombre": "Camiseta Arsenal 24\/25",
+        "descripcion": "Jersey oficial del Arsenal FC, colores tradicionales.",
+        "precio": "86.00",
+        "categoria_id": 1
+    },
+    {
+        "id": 40,
+        "nombre": "Camiseta Inter de Milán 24\/25",
+        "descripcion": "Nueva camiseta del Inter con diseño renovado en negro y azul.",
+        "precio": "89.00",
+        "categoria_id": 1
+    },
+    {
+        "id": 41,
+        "nombre": "Camiseta AC Milan 24\/25 x Off White",
+        "descripcion": "Roja y negra, símbolo de historia y pasión.",
+        "precio": "87.99",
+        "categoria_id": 1
+    },
+    {
+        "id": 42,
+        "nombre": "Camiseta Chelsea FC 24\/25",
+        "descripcion": "El clásico azul del Chelsea con un toque moderno.",
+        "precio": "89.99",
+        "categoria_id": 1
+    },
+    {
+        "id": 43,
+        "nombre": "Camiseta Atlético de Madrid 24\/25",
+        "descripcion": "Diseño rayado rojo y blanco con cuello retro.",
+        "precio": "85.00",
+        "categoria_id": 1
+    },
+    {
+        "id": 44,
+        "nombre": "Camiseta Selección Argentina 2024",
+        "descripcion": "Camiseta oficial campeona del mundo.",
+        "precio": "94.00",
+        "categoria_id": 1
+    },
+    {
+        "id": 45,
+        "nombre": "Camiseta Selección Brasil 2024",
+        "descripcion": "Clásica camiseta amarilla con verde.",
+        "precio": "91.00",
+        "categoria_id": 1
+    },
+    {
+        "id": 46,
+        "nombre": "Camiseta Selección Francia 2024",
+        "descripcion": "Diseño elegante en azul marino con detalles en dorado.",
+        "precio": "93.00",
+        "categoria_id": 1
+    },
+    {
+        "id": 47,
+        "nombre": "Camiseta Selección Alemania 2024",
+        "descripcion": "Diseño blanco y negro clásico, modernizado para el 2024.",
+        "precio": "89.00",
+        "categoria_id": 1
+    },
+    {
+        "id": 48,
+        "nombre": "Camisa casual de algodón",
+        "descripcion": "Camisa ligera y cómoda para uso diario.",
+        "precio": "14.99",
+        "categoria_id": 3
+    },
+    {
+        "id": 49,
+        "nombre": "Pantalón jeans slim fit",
+        "descripcion": "Jeans de corte ajustado, perfectos para ocasiones casuales.",
+        "precio": "24.99",
+        "categoria_id": 3
+    },
+    {
+        "id": 50,
+        "nombre": "Blusa estampada de verano",
+        "descripcion": "Blusa con diseño floral, ideal para días calurosos.",
+        "precio": "18.50",
+        "categoria_id": 3
+    },
+    {
+        "id": 51,
+        "nombre": "Chaqueta deportiva unisex",
+        "descripcion": "Chaqueta ligera con cierre frontal y bolsillos laterales.",
+        "precio": "29.99",
+        "categoria_id": 3
+    },
+    {
+        "id": 52,
+        "nombre": "Falda plisada midi",
+        "descripcion": "Falda elegante de largo medio con cinturilla elástica.",
+        "precio": "21.00",
+        "categoria_id": 3
+    },
+    {
+        "id": 53,
+        "nombre": "Sudadera con capucha",
+        "descripcion": "Sudadera con interior afelpado, perfecta para clima frío.",
+        "precio": "26.99",
+        "categoria_id": 3
+    },
+    {
+        "id": 54,
+        "nombre": "Vestido casual de algodón",
+        "descripcion": "Vestido sencillo para uso diario.",
+        "precio": "22.50",
+        "categoria_id": 3
+    },
+    {
+        "id": 55,
+        "nombre": "Camiseta básica unisex",
+        "descripcion": "Camiseta de algodón 100%, ideal para combinar.",
+        "precio": "9.99",
+        "categoria_id": 3
+    },
+    {
+        "id": 56,
+        "nombre": "Leggins deportivos",
+        "descripcion": "Pantalón tipo leggins con gran elasticidad.",
+        "precio": "17.50",
+        "categoria_id": 3
+    },
+    {
+        "id": 57,
+        "nombre": "Camisa manga corta de lino",
+        "descripcion": "Camisa fresca ideal para climas cálidos.",
+        "precio": "19.99",
+        "categoria_id": 3
+    },
+    {
+        "id": 58,
+        "nombre": "Pantalón cargo hombre",
+        "descripcion": "Pantalón con bolsillos múltiples y ajuste en tobillos.",
+        "precio": "28.00",
+        "categoria_id": 3
+    },
+    {
+        "id": 59,
+        "nombre": "Shorts de mezclilla mujer",
+        "descripcion": "Shorts cortos con detalles desgastados.",
+        "precio": "16.50",
+        "categoria_id": 3
+    },
+    {
+        "id": 60,
+        "nombre": "Chaleco acolchado",
+        "descripcion": "Chaleco con relleno ligero para entretiempo.",
+        "precio": "23.99",
+        "categoria_id": 3
+    },
+    {
+        "id": 61,
+        "nombre": "Crop top deportivo",
+        "descripcion": "Top corto para entrenamientos o uso urbano.",
+        "precio": "14.50",
+        "categoria_id": 3
+    },
+    {
+        "id": 62,
+        "nombre": "Jogger de algodón",
+        "descripcion": "Pantalón cómodo con elástico en cintura y tobillos.",
+        "precio": "19.90",
+        "categoria_id": 3
+    },
+    {
+        "id": 63,
+        "nombre": "Pack de snacks saludables",
+        "descripcion": "Combinación de nueces, arándanos y almendras. Ideal para una merienda saludable.",
+        "precio": "7.99",
+        "categoria_id": 4
+    },
+    {
+        "id": 64,
+        "nombre": "Chocolate artesanal oscuro 70% cacao",
+        "descripcion": "Chocolate premium artesanal con alto contenido de cacao.",
+        "precio": "4.50",
+        "categoria_id": 4
+    },
+    {
+        "id": 65,
+        "nombre": "Mermelada de fresa orgánica 250g",
+        "descripcion": "Mermelada natural sin conservantes, perfecta para tus desayunos.",
+        "precio": "3.25",
+        "categoria_id": 4
+    },
+    {
+        "id": 66,
+        "nombre": "Café gourmet en grano 250g",
+        "descripcion": "Café 100% arábica tostado, perfecto para moler en casa.",
+        "precio": "6.99",
+        "categoria_id": 4
+    },
+    {
+        "id": 67,
+        "nombre": "Té verde premium en bolsitas",
+        "descripcion": "Caja con 20 bolsitas de té verde natural antioxidante.",
+        "precio": "3.90",
+        "categoria_id": 4
+    },
+    {
+        "id": 68,
+        "nombre": "Barritas energéticas naturales (pack x6)",
+        "descripcion": "Barritas de avena y frutos secos sin azúcares añadidos.",
+        "precio": "5.75",
+        "categoria_id": 4
+    },
+    {
+        "id": 69,
+        "nombre": "Salsa picante “Trompa de Chucho”",
+        "descripcion": "Salsa picante salvadoreña ideal para tus platillos.",
+        "precio": "2.95",
+        "categoria_id": 4
+    },
+    {
+        "id": 70,
+        "nombre": "Pasta artesanal de espinaca 500g",
+        "descripcion": "Fettuccine verde hecho con espinaca natural.",
+        "precio": "4.30",
+        "categoria_id": 4
+    },
+    {
+        "id": 71,
+        "nombre": "Miel orgánica de montaña 350ml",
+        "descripcion": "Miel pura recolectada en bosques de altura.",
+        "precio": "5.99",
+        "categoria_id": 4
+    },
+    {
+        "id": 72,
+        "nombre": "Galletas veganas de avena (pack x8)",
+        "descripcion": "Deliciosas galletas de avena sin lactosa ni huevo.",
+        "precio": "3.85",
+        "categoria_id": 4
+    },
+    {
+        "id": 73,
+        "nombre": "Aceite de oliva extra virgen 500ml",
+        "descripcion": "Aceite premium de primera extracción en frío.",
+        "precio": "7.50",
+        "categoria_id": 4
+    },
+    {
+        "id": 74,
+        "nombre": "Mix de frutas deshidratadas sin azúcar",
+        "descripcion": "Combinación de frutas secas como mango, piña y papaya.",
+        "precio": "6.10",
+        "categoria_id": 4
+    },
+    {
+        "id": 75,
+        "nombre": "Cereal granola con frutos rojos 400g",
+        "descripcion": "Granola crocante con fresa, mora y arándano.",
+        "precio": "4.99",
+        "categoria_id": 4
+    },
+    {
+        "id": 76,
+        "nombre": "Chiles encurtidos gourmet en frasco",
+        "descripcion": "Frasco de chiles jalapeños con zanahoria en vinagre.",
+        "precio": "3.75",
+        "categoria_id": 4
+    },
+    {
+        "id": 77,
+        "nombre": "Bebida energética natural de guaraná 250ml",
+        "descripcion": "Energizante natural sin taurina ni químicos.",
+        "precio": "2.45",
+        "categoria_id": 4
+    },
+    {
+        "id": 78,
+        "nombre": "Cortina blackout térmica 140x220cm",
+        "descripcion": "Perfecta para bloquear luz solar y mantener la temperatura del ambiente.",
+        "precio": "9.99",
+        "categoria_id": 5
+    },
+    {
+        "id": 79,
+        "nombre": "Juego de sábanas 4 piezas – tamaño matrimonial",
+        "descripcion": "Con diseño elegante y suave al tacto, ideal para un descanso cómodo.",
+        "precio": "13.74",
+        "categoria_id": 5
+    },
+    {
+        "id": 80,
+        "nombre": "Dispenser automático de jabón líquido",
+        "descripcion": "Sensor infrarrojo para higiene sin contacto, recargable por USB.",
+        "precio": "17.49",
+        "categoria_id": 5
+    },
+    {
+        "id": 81,
+        "nombre": "Rollo de toalla reutilizable de microfibra (pack x3)",
+        "descripcion": "Alta absorción y ecológicas, aptas para cocina o baño.",
+        "precio": "21.24",
+        "categoria_id": 5
+    },
+    {
+        "id": 82,
+        "nombre": "Cubo organizador plegable con tapa (30x30cm)",
+        "descripcion": "Ideal para ropa, juguetes o accesorios, fácil de guardar.",
+        "precio": "24.99",
+        "categoria_id": 5
+    },
+    {
+        "id": 83,
+        "nombre": "Set de organizadores para cajones (6 piezas)",
+        "descripcion": "Para ropa interior, calcetines o artículos pequeños.",
+        "precio": "28.74",
+        "categoria_id": 5
+    },
+    {
+        "id": 84,
+        "nombre": "Reloj de pared minimalista 30cm",
+        "descripcion": "Diseño moderno, silencioso y elegante.",
+        "precio": "32.49",
+        "categoria_id": 5
+    },
+    {
+        "id": 85,
+        "nombre": "Almohada ortopédica de espuma viscoelástica",
+        "descripcion": "Con soporte ergonómico para cuello y cabeza.",
+        "precio": "36.24",
+        "categoria_id": 5
+    },
+    {
+        "id": 86,
+        "nombre": "Juego de frascos herméticos para cocina (pack x5)",
+        "descripcion": "De vidrio con tapa de bambú, ideal para despensa o especias.",
+        "precio": "39.99",
+        "categoria_id": 5
+    },
+    {
+        "id": 87,
+        "nombre": "Portacepillos de baño con drenaje automático",
+        "descripcion": "Incluye soporte para pasta dental y vasos invertidos.",
+        "precio": "43.74",
+        "categoria_id": 5
+    },
+    {
+        "id": 88,
+        "nombre": "Lámpara LED de noche con sensor de movimiento",
+        "descripcion": "Ideal para pasillos, baño o cuarto infantil.",
+        "precio": "47.49",
+        "categoria_id": 5
+    },
+    {
+        "id": 89,
+        "nombre": "Escoba giratoria 360° con balde exprimidor",
+        "descripcion": "Sistema de limpieza eficiente para pisos.",
+        "precio": "51.24",
+        "categoria_id": 5
+    },
+    {
+        "id": 90,
+        "nombre": "Tendedero plegable metálico de 3 niveles",
+        "descripcion": "Compacto y resistente, ideal para interiores.",
+        "precio": "54.99",
+        "categoria_id": 5
+    },
+    {
+        "id": 91,
+        "nombre": "Ambientador eléctrico con esencias intercambiables",
+        "descripcion": "Para mantener tu hogar siempre fresco.",
+        "precio": "58.74",
+        "categoria_id": 5
+    },
+    {
+        "id": 92,
+        "nombre": "Cesta de ropa sucia con compartimentos",
+        "descripcion": "Triple división para separar blanco, color y oscuro.",
+        "precio": "62.49",
+        "categoria_id": 5
+    },
+    {
+        "id": 93,
+        "nombre": "Set de bloques de construcción 100 piezas",
+        "descripcion": "Estimula la creatividad y coordinación en niños mayores de 3 años.",
+        "precio": "14.99",
+        "categoria_id": 6
+    },
+    {
+        "id": 94,
+        "nombre": "Muñeca articulada con accesorios",
+        "descripcion": "Incluye vestuario, bolso y cepillo. Ideal para juego imaginativo.",
+        "precio": "12.50",
+        "categoria_id": 6
+    },
+    {
+        "id": 95,
+        "nombre": "Carro de control remoto recargable",
+        "descripcion": "Con luces LED y batería USB. Alcance de hasta 30 metros.",
+        "precio": "22.90",
+        "categoria_id": 6
+    },
+    {
+        "id": 96,
+        "nombre": "Rompecabezas de madera educativo",
+        "descripcion": "Con formas de animales. Ayuda a desarrollar la motricidad fina.",
+        "precio": "9.99",
+        "categoria_id": 6
+    },
+    {
+        "id": 97,
+        "nombre": "Peluche gigante de oso 1 metro",
+        "descripcion": "Suave, lavable y perfecto para regalar.",
+        "precio": "29.99",
+        "categoria_id": 6
+    },
+    {
+        "id": 98,
+        "nombre": "Pistola de dardos de espuma",
+        "descripcion": "Incluye 10 dardos blandos. Seguro y divertido.",
+        "precio": "11.50",
+        "categoria_id": 6
+    },
+    {
+        "id": 99,
+        "nombre": "Casa de muñecas con muebles",
+        "descripcion": "De 3 pisos con figuras incluidas. Arma y juega.",
+        "precio": "36.75",
+        "categoria_id": 6
+    },
+    {
+        "id": 100,
+        "nombre": "Camión volquete de juguete",
+        "descripcion": "Fabricado en plástico resistente. Para uso en exterior.",
+        "precio": "13.20",
+        "categoria_id": 6
+    },
+    {
+        "id": 101,
+        "nombre": "Juego de té para niñas (juguete)",
+        "descripcion": "Incluye tazas, platos, tetera y pastelitos.",
+        "precio": "10.40",
+        "categoria_id": 6
+    },
+    {
+        "id": 102,
+        "nombre": "Tablet infantil educativa",
+        "descripcion": "Juegos y canciones preinstaladas. Idioma español.",
+        "precio": "39.99",
+        "categoria_id": 6
+    },
+    {
+        "id": 103,
+        "nombre": "Pista de carros con looping",
+        "descripcion": "2 autos incluidos y pista armable con lanzador.",
+        "precio": "24.90",
+        "categoria_id": 6
+    },
+    {
+        "id": 104,
+        "nombre": "Set de herramientas para niños",
+        "descripcion": "Incluye martillo, taladro, destornillador y cinturón.",
+        "precio": "15.00",
+        "categoria_id": 6
+    },
+    {
+        "id": 105,
+        "nombre": "Juguete musical piano de colores",
+        "descripcion": "Con luces y sonidos, ideal para bebés desde 1 año.",
+        "precio": "17.25",
+        "categoria_id": 6
+    },
+    {
+        "id": 106,
+        "nombre": "Dinosaurios de plástico (pack x5)",
+        "descripcion": "Realistas, resistentes y sin piezas pequeñas.",
+        "precio": "11.75",
+        "categoria_id": 6
+    },
+    {
+        "id": 107,
+        "nombre": "Lanzador de burbujas automático",
+        "descripcion": "Con pilas, ideal para fiestas y exteriores.",
+        "precio": "9.50",
+        "categoria_id": 6
+    },
+    {
+        "id": 108,
+        "nombre": "Crema hidratante facial con ácido hialurónico",
+        "descripcion": "Crema ligera que hidrata profundamente y mejora la elasticidad de la piel.",
+        "precio": "9.99",
+        "categoria_id": 7
+    },
+    {
+        "id": 109,
+        "nombre": "Set de brochas de maquillaje profesional (12 piezas)",
+        "descripcion": "Juego completo de brochas para rostro y ojos, con estuche de almacenamiento.",
+        "precio": "14.50",
+        "categoria_id": 7
+    },
+    {
+        "id": 110,
+        "nombre": "Esmalte de uñas en gel UV – rojo rubí",
+        "descripcion": "Esmalte de larga duración para lámpara UV. Brillo intenso.",
+        "precio": "3.75",
+        "categoria_id": 7
+    },
+    {
+        "id": 111,
+        "nombre": "Paleta de sombras de ojos tonos neutros",
+        "descripcion": "12 tonos neutros perfectos para maquillaje diario o profesional.",
+        "precio": "8.99",
+        "categoria_id": 7
+    },
+    {
+        "id": 112,
+        "nombre": "Sérum capilar reparador con keratina",
+        "descripcion": "Sérum para reparación intensiva del cabello dañado. Uso diario.",
+        "precio": "6.90",
+        "categoria_id": 7
+    },
+    {
+        "id": 113,
+        "nombre": "Labial líquido mate de larga duración",
+        "descripcion": "Acabado mate aterciopelado. Fórmula no transferible.",
+        "precio": "4.25",
+        "categoria_id": 7
+    },
+    {
+        "id": 114,
+        "nombre": "Kit de cuidado facial (limpiador, tónico, crema)",
+        "descripcion": "Rutina completa para piel normal a grasa. Fórmula natural.",
+        "precio": "17.99",
+        "categoria_id": 7
+    },
+    {
+        "id": 115,
+        "nombre": "Delineador de ojos a prueba de agua",
+        "descripcion": "Punta fina para mayor precisión. Negro intenso.",
+        "precio": "3.20",
+        "categoria_id": 7
+    },
+    {
+        "id": 116,
+        "nombre": "Mascarilla facial de arcilla purificante",
+        "descripcion": "Absorbe impurezas y limpia los poros. Ideal para piel grasa.",
+        "precio": "5.99",
+        "categoria_id": 7
+    },
+    {
+        "id": 117,
+        "nombre": "Rizador de pestañas de acero inoxidable",
+        "descripcion": "Diseño ergonómico con almohadilla de silicón.",
+        "precio": "2.99",
+        "categoria_id": 7
+    },
+    {
+        "id": 118,
+        "nombre": "Perfume floral para mujer 50ml",
+        "descripcion": "Aroma suave con notas florales. Ideal para uso diario.",
+        "precio": "12.50",
+        "categoria_id": 7
+    },
+    {
+        "id": 119,
+        "nombre": "Bálsamo labial con protector solar FPS 15",
+        "descripcion": "Protección solar y nutrición para labios secos.",
+        "precio": "2.50",
+        "categoria_id": 7
+    },
+    {
+        "id": 120,
+        "nombre": "Crema antiarrugas con colágeno",
+        "descripcion": "Reduce líneas finas y mejora la firmeza de la piel.",
+        "precio": "10.99",
+        "categoria_id": 7
+    },
+    {
+        "id": 121,
+        "nombre": "Exfoliante corporal con sales del Himalaya",
+        "descripcion": "Renueva la piel y deja sensación suave al tacto.",
+        "precio": "6.75",
+        "categoria_id": 7
+    },
+    {
+        "id": 122,
+        "nombre": "Aceite esencial de lavanda 15ml",
+        "descripcion": "Relajante y aromaterapéutico. 100% natural.",
+        "precio": "4.99",
+        "categoria_id": 7
+    },
+    {
+        "id": 123,
+        "nombre": "Termómetro digital infrarrojo",
+        "descripcion": "Medición sin contacto, ideal para uso doméstico.",
+        "precio": "14.99",
+        "categoria_id": 8
+    },
+    {
+        "id": 124,
+        "nombre": "Tensiómetro automático de brazo",
+        "descripcion": "Mide presión arterial y pulso. Pantalla LCD grande.",
+        "precio": "29.99",
+        "categoria_id": 8
+    },
+    {
+        "id": 125,
+        "nombre": "Oxímetro de pulso portátil",
+        "descripcion": "Mide saturación de oxígeno y ritmo cardíaco.",
+        "precio": "17.50",
+        "categoria_id": 8
+    },
+    {
+        "id": 126,
+        "nombre": "Gel antibacterial con aloe vera 500ml",
+        "descripcion": "Elimina el 99.9% de bacterias. Suave con la piel.",
+        "precio": "4.25",
+        "categoria_id": 8
+    },
+    {
+        "id": 127,
+        "nombre": "Mascarillas KN95 (pack x10)",
+        "descripcion": "Filtración de 5 capas. Certificación internacional.",
+        "precio": "6.99",
+        "categoria_id": 8
+    },
+    {
+        "id": 128,
+        "nombre": "Pastillero semanal con compartimentos",
+        "descripcion": "Organizador AM\/PM para 7 días.",
+        "precio": "3.50",
+        "categoria_id": 8
+    },
+    {
+        "id": 129,
+        "nombre": "Termo para agua caliente de 1 litro",
+        "descripcion": "Ideal para terapias o agua medicinal.",
+        "precio": "11.90",
+        "categoria_id": 8
+    },
+    {
+        "id": 130,
+        "nombre": "Cinta kinesiológica deportiva",
+        "descripcion": "Mejora circulación y alivia dolores musculares.",
+        "precio": "7.50",
+        "categoria_id": 8
+    },
+    {
+        "id": 131,
+        "nombre": "Faja lumbar ortopédica ajustable",
+        "descripcion": "Brinda soporte a la espalda baja.",
+        "precio": "13.99",
+        "categoria_id": 8
+    },
+    {
+        "id": 132,
+        "nombre": "Botiquín de primeros auxilios básico",
+        "descripcion": "Incluye gasas, vendas, alcohol y tijeras.",
+        "precio": "9.99",
+        "categoria_id": 8
+    },
+    {
+        "id": 133,
+        "nombre": "Nebulizador portátil ultrasónico",
+        "descripcion": "Silencioso, apto para niños y adultos.",
+        "precio": "23.00",
+        "categoria_id": 8
+    },
+    {
+        "id": 134,
+        "nombre": "Bastón plegable con luz LED",
+        "descripcion": "Altura ajustable, seguro para personas mayores.",
+        "precio": "15.49",
+        "categoria_id": 8
+    },
+    {
+        "id": 135,
+        "nombre": "Cojín ortopédico para silla",
+        "descripcion": "Ayuda a mantener postura correcta al sentarse.",
+        "precio": "12.95",
+        "categoria_id": 8
+    },
+    {
+        "id": 136,
+        "nombre": "Cortaúñas ergonómico con lupa",
+        "descripcion": "Ideal para personas con visión reducida.",
+        "precio": "5.75",
+        "categoria_id": 8
+    },
+    {
+        "id": 137,
+        "nombre": "Protector de juanetes de silicona (par)",
+        "descripcion": "Reduce dolor y fricción en el pie.",
+        "precio": "3.99",
+        "categoria_id": 8
+    },
+    {
+        "id": 138,
+        "nombre": "Alimento seco para perro adulto 3kg",
+        "descripcion": "Fórmula balanceada con proteínas y vitaminas.",
+        "precio": "14.99",
+        "categoria_id": 9
+    },
+    {
+        "id": 139,
+        "nombre": "Cama acolchada para gato",
+        "descripcion": "Cama suave, redonda y antideslizante para gatos.",
+        "precio": "17.50",
+        "categoria_id": 9
+    },
+    {
+        "id": 140,
+        "nombre": "Collar ajustable con campana",
+        "descripcion": "Collar para gato con cierre de seguridad y campanita.",
+        "precio": "3.99",
+        "categoria_id": 9
+    },
+    {
+        "id": 141,
+        "nombre": "Juguete mordedor para perro",
+        "descripcion": "Juguete de goma no tóxica ideal para encías sensibles.",
+        "precio": "5.99",
+        "categoria_id": 9
+    },
+    {
+        "id": 142,
+        "nombre": "Rascador para gato con base",
+        "descripcion": "Base estable con poste para rascar y jugar.",
+        "precio": "24.90",
+        "categoria_id": 9
+    },
+    {
+        "id": 143,
+        "nombre": "Dispensador automático de alimento",
+        "descripcion": "Contenedor con temporizador para servir comida a tiempo.",
+        "precio": "39.99",
+        "categoria_id": 9
+    },
+    {
+        "id": 144,
+        "nombre": "Bolsas biodegradables para desechos (100u)",
+        "descripcion": "Rollos de bolsas para recoger heces con aroma.",
+        "precio": "7.50",
+        "categoria_id": 9
+    },
+    {
+        "id": 145,
+        "nombre": "Transportadora para mascotas rígida",
+        "descripcion": "Transportadora de plástico ventilada con puerta metálica.",
+        "precio": "29.90",
+        "categoria_id": 9
+    },
+    {
+        "id": 146,
+        "nombre": "Champú para perro hipoalergénico",
+        "descripcion": "Fórmula suave sin fragancias para piel sensible.",
+        "precio": "10.99",
+        "categoria_id": 9
+    },
+    {
+        "id": 147,
+        "nombre": "Bebedero portátil para paseos",
+        "descripcion": "Botella con bebedero retráctil ideal para caminatas.",
+        "precio": "6.99",
+        "categoria_id": 9
+    },
+    {
+        "id": 148,
+        "nombre": "Pechera con correa para gato",
+        "descripcion": "Arnés ajustable con correa para mayor seguridad.",
+        "precio": "9.99",
+        "categoria_id": 9
+    },
+    {
+        "id": 149,
+        "nombre": "Cortaúñas con luz LED para mascotas",
+        "descripcion": "Diseñado para evitar cortar la parte sensible de la uña.",
+        "precio": "11.99",
+        "categoria_id": 9
+    },
+    {
+        "id": 150,
+        "nombre": "Pelota interactiva con luz",
+        "descripcion": "Se enciende al rodar, ideal para mantener a tu mascota activa.",
+        "precio": "8.99",
+        "categoria_id": 9
+    },
+    {
+        "id": 151,
+        "nombre": "Arenero cerrado con filtro",
+        "descripcion": "Diseño cerrado para mayor higiene y control de olores.",
+        "precio": "35.00",
+        "categoria_id": 9
+    },
+    {
+        "id": 152,
+        "nombre": "Ropa para perro - suéter de algodón",
+        "descripcion": "Abrigo cómodo para perros pequeños y medianos.",
+        "precio": "13.50",
+        "categoria_id": 9
+    },
+    {
+        "id": 153,
+        "nombre": "Cien años de soledad",
+        "descripcion": "Obra maestra de Gabriel García Márquez sobre la familia Buendía en Macondo.",
+        "precio": "12.99",
+        "categoria_id": 10
+    },
+    {
+        "id": 154,
+        "nombre": "1984",
+        "descripcion": "Distopía escrita por George Orwell sobre un régimen totalitario y el control social.",
+        "precio": "11.50",
+        "categoria_id": 10
+    },
+    {
+        "id": 155,
+        "nombre": "El principito",
+        "descripcion": "Fábula poética escrita por Antoine de Saint-Exupéry sobre la amistad y el amor.",
+        "precio": "9.99",
+        "categoria_id": 10
+    },
+    {
+        "id": 156,
+        "nombre": "La sombra del viento",
+        "descripcion": "Novela de Carlos Ruiz Zafón que inicia la saga del Cementerio de los Libros Olvidados.",
+        "precio": "13.25",
+        "categoria_id": 10
+    },
+    {
+        "id": 157,
+        "nombre": "Orgullo y prejuicio",
+        "descripcion": "Clásico de Jane Austen sobre amor, clase social y prejuicios en la Inglaterra del siglo XIX.",
+        "precio": "10.95",
+        "categoria_id": 10
+    },
+    {
+        "id": 158,
+        "nombre": "Harry Potter y la piedra filosofal",
+        "descripcion": "Primer libro de la saga mágica de J.K. Rowling.",
+        "precio": "14.50",
+        "categoria_id": 10
+    },
+    {
+        "id": 159,
+        "nombre": "Don Quijote de la Mancha",
+        "descripcion": "Obra cumbre de Miguel de Cervantes y de la literatura universal.",
+        "precio": "15.00",
+        "categoria_id": 10
+    },
+    {
+        "id": 160,
+        "nombre": "Crónica de una muerte anunciada",
+        "descripcion": "Relato breve y magistral de Gabriel García Márquez sobre un crimen anunciado.",
+        "precio": "8.99",
+        "categoria_id": 10
+    },
+    {
+        "id": 161,
+        "nombre": "Los juegos del hambre",
+        "descripcion": "Novela distópica de Suzanne Collins sobre supervivencia y rebelión.",
+        "precio": "13.90",
+        "categoria_id": 10
+    },
+    {
+        "id": 162,
+        "nombre": "El código Da Vinci",
+        "descripcion": "Best seller de Dan Brown con una trama de misterio, religión y arte.",
+        "precio": "12.80",
+        "categoria_id": 10
+    },
+    {
+        "id": 163,
+        "nombre": "It (Eso)",
+        "descripcion": "Novela de terror escrita por Stephen King sobre un ente maligno que aterroriza a un pueblo.",
+        "precio": "17.50",
+        "categoria_id": 10
+    },
+    {
+        "id": 164,
+        "nombre": "El nombre del viento",
+        "descripcion": "Primera parte de la Crónica del Asesino de Reyes, escrita por Patrick Rothfuss.",
+        "precio": "15.25",
+        "categoria_id": 10
+    },
+    {
+        "id": 165,
+        "nombre": "El alquimista",
+        "descripcion": "Inspiradora novela de Paulo Coelho sobre la búsqueda del destino personal.",
+        "precio": "10.50",
+        "categoria_id": 10
+    },
+    {
+        "id": 166,
+        "nombre": "Rayuela",
+        "descripcion": "Innovadora obra de Julio Cortázar que puede leerse de múltiples formas.",
+        "precio": "11.75",
+        "categoria_id": 10
+    },
+    {
+        "id": 167,
+        "nombre": "Sapiens: De animales a dioses",
+        "descripcion": "Ensayo de Yuval Noah Harari sobre la evolución y la historia de la humanidad.",
+        "precio": "18.00",
+        "categoria_id": 10
+    },
+    {
+        "id": 168,
+        "nombre": "Taladro percutor eléctrico 600W",
+        "descripcion": "Taladro percutor eléctrico 600W de alta calidad para uso profesional o doméstico.",
+        "precio": "19.99",
+        "categoria_id": 11
+    },
+    {
+        "id": 169,
+        "nombre": "Juego de llaves combinadas (12 piezas)",
+        "descripcion": "Juego de llaves combinadas (12 piezas) de alta calidad para uso profesional o doméstico.",
+        "precio": "24.99",
+        "categoria_id": 11
+    },
+    {
+        "id": 170,
+        "nombre": "Caja de herramientas plástica con compartimentos",
+        "descripcion": "Caja de herramientas plástica con compartimentos de alta calidad para uso profesional o doméstico.",
+        "precio": "18.50",
+        "categoria_id": 11
+    },
+    {
+        "id": 171,
+        "nombre": "Martillo de carpintero con mango de fibra",
+        "descripcion": "Martillo de carpintero con mango de fibra de alta calidad para uso profesional o doméstico.",
+        "precio": "12.99",
+        "categoria_id": 11
+    },
+    {
+        "id": 172,
+        "nombre": "Sierra circular 7 1\/4”",
+        "descripcion": "Sierra circular 7 1\/4” de alta calidad para uso profesional o doméstico.",
+        "precio": "39.99",
+        "categoria_id": 11
+    },
+    {
+        "id": 173,
+        "nombre": "Nivel de burbuja 60cm",
+        "descripcion": "Nivel de burbuja 60cm de alta calidad para uso profesional o doméstico.",
+        "precio": "14.50",
+        "categoria_id": 11
+    },
+    {
+        "id": 174,
+        "nombre": "Flexómetro metálico 5 metros",
+        "descripcion": "Flexómetro metálico 5 metros de alta calidad para uso profesional o doméstico.",
+        "precio": "8.99",
+        "categoria_id": 11
+    },
+    {
+        "id": 175,
+        "nombre": "Alicate de presión ajustable",
+        "descripcion": "Alicate de presión ajustable de alta calidad para uso profesional o doméstico.",
+        "precio": "10.99",
+        "categoria_id": 11
+    },
+    {
+        "id": 176,
+        "nombre": "Juego de desarmadores de precisión (8 piezas)",
+        "descripcion": "Juego de desarmadores de precisión (8 piezas) de alta calidad para uso profesional o doméstico.",
+        "precio": "7.99",
+        "categoria_id": 11
+    },
+    {
+        "id": 177,
+        "nombre": "Pistola de silicona caliente",
+        "descripcion": "Pistola de silicona caliente de alta calidad para uso profesional o doméstico.",
+        "precio": "9.99",
+        "categoria_id": 11
+    },
+    {
+        "id": 178,
+        "nombre": "Brocas para concreto (set x5)",
+        "descripcion": "Brocas para concreto (set x5) de alta calidad para uso profesional o doméstico.",
+        "precio": "13.99",
+        "categoria_id": 11
+    },
+    {
+        "id": 179,
+        "nombre": "Llave ajustable 10 pulgadas",
+        "descripcion": "Llave ajustable 10 pulgadas de alta calidad para uso profesional o doméstico.",
+        "precio": "11.99",
+        "categoria_id": 11
+    },
+    {
+        "id": 180,
+        "nombre": "Cortador de tubos de PVC",
+        "descripcion": "Cortador de tubos de PVC de alta calidad para uso profesional o doméstico.",
+        "precio": "6.99",
+        "categoria_id": 11
+    },
+    {
+        "id": 181,
+        "nombre": "Multímetro digital básico",
+        "descripcion": "Multímetro digital básico de alta calidad para uso profesional o doméstico.",
+        "precio": "15.50",
+        "categoria_id": 11
+    },
+    {
+        "id": 182,
+        "nombre": "Escalera de aluminio plegable 4 peldaños",
+        "descripcion": "Escalera de aluminio plegable 4 peldaños de alta calidad para uso profesional o doméstico.",
+        "precio": "29.99",
+        "categoria_id": 11
+    },
+    {
+        "id": 183,
+        "nombre": "Camiseta Manchester City 24\/25",
+        "descripcion": "Camiseta oficial del Manchester City temporada 2024\/2025.",
+        "precio": "199.00",
+        "categoria_id": 1
+    },
+    {
+        "id": 184,
+        "nombre": "Camiseta Manchester City Cuarta Equipación 24\/25",
+        "descripcion": "Camiseta oficial del Manchester City Cuarta Equipación 24\/25.",
+        "precio": "150.00",
+        "categoria_id": 1
+    }
+]

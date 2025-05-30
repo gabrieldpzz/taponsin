@@ -1,0 +1,401 @@
+/* Rastreo de Envío - Estilos */
+
+.tracking-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    background-color: #EAEFEF;
+    min-height: 100vh;
+}
+
+/* Header */
+.page-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.page-title {
+    color: #333446;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+.page-subtitle {
+    color: #7F8CAA;
+    font-size: 1rem;
+    margin: 0;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Formulario de rastreo */
+.tracking-form-card {
+    background: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-label {
+    color: #333446;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.tracking-input {
+    width: 100%;
+    padding: 15px 20px;
+    border: 2px solid #B8CFCE;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    color: #333446;
+    background-color: white;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+}
+
+.tracking-input:focus {
+    outline: none;
+    border-color: #6C63FF;
+    box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.1);
+}
+
+.tracking-input::placeholder {
+    color: #7F8CAA;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
+
+/* Botones */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.btn-primary {
+    background-color: #6C63FF;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #5a52e6;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(108, 99, 255, 0.3);
+}
+
+.btn-secondary {
+    background-color: #7F8CAA;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #6b7694;
+    transform: translateY(-1px);
+}
+
+.btn-info {
+    background-color: #AED9E0;
+    color: #1a5a6b;
+}
+
+.btn-info:hover {
+    background-color: #9bc9d1;
+    transform: translateY(-1px);
+}
+
+.btn-large {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.btn-small {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+}
+
+.btn-icon {
+    font-size: 1.2em;
+}
+
+/* Contenedor de resultados */
+.result-container {
+    min-height: 100px;
+}
+
+/* Tarjetas de resultado */
+.result-card {
+    background: white;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    animation: fadeIn 0.5s ease-out;
+}
+
+.result-card.success {
+    border-left: 4px solid #A8E6CF;
+}
+
+.result-card.pending {
+    border-left: 4px solid #FFF3B0;
+}
+
+.result-card.shipping {
+    border-left: 4px solid #AED9E0;
+}
+
+.result-card.delivered {
+    border-left: 4px solid #A8E6CF;
+}
+
+.result-card.error {
+    border-left: 4px solid #FF8C94;
+}
+
+.result-card.not-found {
+    border-left: 4px solid #7F8CAA;
+}
+
+.result-card.loading {
+    border-left: 4px solid #B8CFCE;
+}
+
+/* Header del resultado */
+.result-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #B8CFCE;
+}
+
+.result-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.loading-icon {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.result-header-text {
+    flex: 1;
+}
+
+.result-title {
+    color: #333446;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
+
+.result-code {
+    color: #7F8CAA;
+    font-size: 0.9rem;
+    margin: 0;
+    font-family: 'Courier New', monospace;
+}
+
+/* Contenido simple (para errores) */
+.result-content {
+    text-align: center;
+}
+
+.result-content .result-title {
+    margin-bottom: 10px;
+}
+
+.result-message {
+    color: #333446;
+    font-size: 1rem;
+    margin: 0 0 10px 0;
+}
+
+.result-suggestion {
+    color: #7F8CAA;
+    font-size: 0.9rem;
+    margin: 0;
+    font-style: italic;
+}
+
+/* Detalles del seguimiento */
+.tracking-details {
+    margin-bottom: 20px;
+}
+
+.detail-grid {
+    display: grid;
+    gap: 15px;
+}
+
+.detail-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.detail-item:last-child {
+    border-bottom: none;
+}
+
+.detail-label {
+    color: #7F8CAA;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.detail-value {
+    color: #333446;
+    font-weight: 600;
+    text-align: right;
+    max-width: 60%;
+    word-wrap: break-word;
+}
+
+.status-value {
+    background-color: #A8E6CF;
+    color: #2d5a3d;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    text-transform: capitalize;
+}
+
+.estimated-date {
+    color: #6C63FF;
+    font-weight: 700;
+}
+
+/* Acciones del seguimiento */
+.tracking-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 15px;
+    border-top: 1px solid #e0e0e0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .tracking-container {
+        padding: 15px;
+    }
+    
+    .tracking-form-card {
+        padding: 20px;
+    }
+    
+    .result-card {
+        padding: 20px;
+    }
+    
+    .result-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .detail-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    
+    .detail-value {
+        text-align: left;
+        max-width: 100%;
+    }
+    
+    .tracking-actions {
+        flex-direction: column;
+    }
+    
+    .tracking-actions .btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-title {
+        font-size: 1.5rem;
+    }
+    
+    .tracking-input {
+        font-size: 1rem;
+        padding: 12px 15px;
+    }
+    
+    .btn-large {
+        padding: 12px 20px;
+        font-size: 1rem;
+    }
+    
+    .result-icon {
+        font-size: 1.5rem;
+    }
+    
+    .result-title {
+        font-size: 1.1rem;
+    }
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.tracking-form-card {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Estados de carga */
+.result-card.loading .result-content {
+    text-align: center;
+}
+
+.result-card.loading .result-message {
+    color: #7F8CAA;
+    font-style: italic;
+}

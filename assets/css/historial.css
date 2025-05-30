@@ -1,0 +1,405 @@
+/* Historial de Pedidos - Estilos */
+
+.history-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    background-color: #EAEFEF;
+    min-height: 100vh;
+}
+
+/* Header */
+.page-header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.page-title {
+    color: #333446;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+.page-subtitle {
+    color: #7F8CAA;
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Contenido de pedidos */
+.orders-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Resumen de pedidos */
+.orders-summary {
+    margin-bottom: 10px;
+}
+
+.summary-card {
+    background: white;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.summary-item {
+    text-align: center;
+}
+
+.summary-number {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #6C63FF;
+    margin-bottom: 5px;
+}
+
+.summary-label {
+    color: #7F8CAA;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Tabla de pedidos */
+.orders-table-card {
+    background: white;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+.orders-table th {
+    background-color: #333446;
+    color: white;
+    padding: 15px 12px;
+    text-align: left;
+    font-weight: 500;
+    border: none;
+    white-space: nowrap;
+}
+
+.orders-table td {
+    padding: 15px 12px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #333446;
+    vertical-align: middle;
+}
+
+.order-row:hover {
+    background-color: #f8f9fa;
+}
+
+/* ID del pedido */
+.order-id {
+    text-align: center;
+}
+
+.id-badge {
+    background-color: #333446;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+/* Identificador */
+.identifier-text {
+    font-family: 'Courier New', monospace;
+    background-color: #B8CFCE;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: #333446;
+}
+
+/* Monto */
+.order-amount {
+    text-align: center;
+}
+
+.amount-text {
+    font-weight: 600;
+    color: #333446;
+    font-size: 1.1rem;
+}
+
+/* Estado */
+.order-status {
+    text-align: center;
+}
+
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.status-pending {
+    background-color: #FFF3B0;
+    color: #8b7500;
+}
+
+.status-processing {
+    background-color: #AED9E0;
+    color: #1a5a6b;
+}
+
+.status-shipped {
+    background-color: #B8CFCE;
+    color: #2d4a49;
+}
+
+.status-delivered {
+    background-color: #A8E6CF;
+    color: #2d5a3d;
+}
+
+.status-cancelled {
+    background-color: #FF8C94;
+    color: #8b2635;
+}
+
+.status-default {
+    background-color: #7F8CAA;
+    color: white;
+}
+
+.status-icon {
+    font-size: 1em;
+}
+
+/* Fecha */
+.date-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date-main {
+    font-weight: 500;
+    color: #333446;
+}
+
+.date-time {
+    font-size: 0.8rem;
+    color: #7F8CAA;
+}
+
+/* Acciones */
+.order-actions {
+    text-align: center;
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+/* Botones */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    white-space: nowrap;
+}
+
+.btn-primary {
+    background-color: #6C63FF;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #5a52e6;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(108, 99, 255, 0.3);
+}
+
+.btn-secondary {
+    background-color: #7F8CAA;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #6b7694;
+    transform: translateY(-1px);
+}
+
+.btn-info {
+    background-color: #AED9E0;
+    color: #1a5a6b;
+}
+
+.btn-info:hover {
+    background-color: #9bc9d1;
+    transform: translateY(-1px);
+}
+
+.btn-small {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+}
+
+.btn-icon {
+    font-size: 1em;
+}
+
+/* Historial vacío */
+.empty-history {
+    background: white;
+    border-radius: 8px;
+    padding: 60px 40px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.empty-history-icon {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+
+.empty-history-title {
+    color: #333446;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+}
+
+.empty-history-message {
+    color: #7F8CAA;
+    font-size: 1rem;
+    margin: 0 0 30px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .history-container {
+        padding: 15px;
+    }
+    
+    .summary-card {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    .orders-table {
+        font-size: 0.85rem;
+    }
+    
+    .orders-table th,
+    .orders-table td {
+        padding: 10px 8px;
+    }
+    
+    .action-buttons {
+        flex-direction: column;
+        gap: 6px;
+    }
+    
+    .empty-history {
+        padding: 40px 20px;
+    }
+    
+    .empty-history-icon {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-title {
+        font-size: 1.5rem;
+    }
+    
+    .orders-table-card {
+        padding: 15px;
+    }
+    
+    .orders-table th,
+    .orders-table td {
+        padding: 8px 4px;
+        font-size: 0.8rem;
+    }
+    
+    /* Ocultar columnas menos importantes en móvil */
+    .orders-table th:nth-child(1),
+    .orders-table td:nth-child(1),
+    .orders-table th:nth-child(2),
+    .orders-table td:nth-child(2) {
+        display: none;
+    }
+    
+    .action-buttons .btn {
+        padding: 6px 10px;
+        font-size: 0.8rem;
+    }
+    
+    .status-badge {
+        padding: 6px 8px;
+        font-size: 0.8rem;
+    }
+    
+    .summary-number {
+        font-size: 1.5rem;
+    }
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.order-row {
+    animation: fadeIn 0.3s ease-out;
+}
+
+.summary-card {
+    animation: fadeIn 0.5s ease-out;
+}
+
+.orders-table-card {
+    animation: fadeIn 0.6s ease-out;
+}

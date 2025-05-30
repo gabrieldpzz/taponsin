@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", "Roboto", -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #eaefef;
+  color: #333446;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-container {
+  width: 100vw;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.page-header h2 {
+  color: #333446;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.page-subtitle {
+  color: #7f8caa;
+  font-size: 16px;
+  margin: 0;
+}
+
+.filters-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  margin-bottom: 24px;
+  width: 96vw;           /* Igual que .results-card */
+  max-width: 1800px;     /* Igual que .results-card */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-section {
+  display: flex;
+  gap: 20px;
+  align-items: end;
+  flex-wrap: wrap;
+}
+
+.search-group,
+.filter-group {
+  flex: 1;
+  min-width: 250px;
+}
+
+.search-group label,
+.filter-group label {
+  display: block;
+  margin-bottom: 6px;
+  color: #333446;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #b8cfce;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: white;
+  color: #333446;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #6c63ff;
+  box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.1);
+}
+
+.search-input::placeholder {
+  color: #7f8caa;
+}
+
+.filter-select {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #b8cfce;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: white;
+  color: #333446;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: #6c63ff;
+  box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.1);
+}
+
+.results-card {
+  width: 96vw;           /* Ocupa el 96% del viewport */
+  max-width: 1800px;     /* Máximo para pantallas grandes */
+  margin: 24px auto 0 auto; /* Centrado y con margen arriba */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 0;
+  overflow-x: auto;
+  background: white;
+}
+
+.pedidos-table {
+  width: 100%;
+  min-width: 900px;
+  border-collapse: collapse;
+  background: white;
+  margin: 0;
+}
+
+.pedidos-table th {
+  background-color: #6c63ff;
+  color: white;
+  padding: 16px 12px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+}
+
+.pedidos-table td {
+  padding: 14px 12px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.pedidos-table tr:hover {
+  background-color: #f8fafc;
+}
+
+.pedidos-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Estados de envío */
+.estado-pendiente {
+  background-color: #fff3b0;
+  color: #8b5a00;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.estado-enviado {
+  background-color: #aed9e0;
+  color: #0369a1;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.estado-entregado {
+  background-color: #a8e6cf;
+  color: #166534;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.estado-cancelado {
+  background-color: #ff8c94;
+  color: #991b1b;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+/* Botón de detalles */
+.btn-detalles {
+  background-color: #6c63ff;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+}
+
+.btn-detalles:hover {
+  background-color: #5a52e6;
+  transform: translateY(-1px);
+  text-decoration: none;
+  color: white;
+}
+
+.btn-detalles:active {
+  transform: translateY(0);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .admin-container {
+    padding: 15px;
+  }
+
+  .search-section {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .search-group,
+  .filter-group {
+    min-width: 100%;
+  }
+
+  .page-header h2 {
+    font-size: 24px;
+  }
+
+  .filters-card {
+    padding: 20px;
+  }
+
+  .pedidos-table {
+    font-size: 12px;
+  }
+
+  .pedidos-table th,
+  .pedidos-table td {
+    padding: 10px 8px;
+  }
+}
+
+@media (max-width: 640px) {
+  .pedidos-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+/* Loading state */
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: #7f8caa;
+}
+
+.loading::after {
+  content: "Cargando pedidos...";
+}

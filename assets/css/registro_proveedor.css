@@ -1,0 +1,317 @@
+/* Reset y base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #333446;
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Tarjeta principal del formulario */
+.form-card {
+    background: #EAEFEF;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.form-header {
+    background: #B8CFCE;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 1px solid rgba(127, 140, 170, 0.2);
+}
+
+.form-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.form-header h2 {
+    color: #333446;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.form-subtitle {
+    color: #7F8CAA;
+    font-size: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Formulario */
+.provider-form {
+    padding: 30px;
+}
+
+.form-section {
+    margin-bottom: 30px;
+}
+
+.form-section h3 {
+    color: #333446;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #B8CFCE;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #333446;
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #B8CFCE;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.form-group input[type="text"]:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #6C63FF;
+    box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.1);
+}
+
+.form-group textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* Inputs de archivo */
+.file-group {
+    position: relative;
+}
+
+.file-input-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.file-input-wrapper input[type="file"] {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.file-input-display {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border: 2px dashed #B8CFCE;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.file-input-display:hover {
+    border-color: #6C63FF;
+    background: #f8f9ff;
+}
+
+.file-icon {
+    font-size: 1.2rem;
+}
+
+.file-text {
+    color: #7F8CAA;
+    font-weight: 500;
+}
+
+.file-help {
+    display: block;
+    color: #7F8CAA;
+    font-size: 0.85rem;
+    margin-top: 5px;
+}
+
+/* Botones */
+.form-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(127, 140, 170, 0.2);
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 140px;
+    justify-content: center;
+}
+
+.btn-primary {
+    background: #6C63FF;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #5a52e6;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(108, 99, 255, 0.3);
+}
+
+.btn-secondary {
+    background: #7F8CAA;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background: #6b7a9a;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(127, 140, 170, 0.3);
+}
+
+.btn-icon {
+    font-size: 1rem;
+}
+
+/* Tarjetas de estado */
+.status-card,
+.success-card {
+    background: #EAEFEF;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 40px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.status-icon,
+.success-icon {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.status-card h2,
+.success-card h2 {
+    color: #333446;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.status-card p,
+.success-card p {
+    color: #7F8CAA;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.status-pendiente {
+    background: #FFF3B0;
+    color: #8B7500;
+}
+
+.status-aprobado {
+    background: #A8E6CF;
+    color: #2D5A3D;
+}
+
+.status-rechazado {
+    background: #FF8C94;
+    color: #8B2635;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px 0;
+    }
+    
+    .form-card {
+        margin: 0 10px;
+    }
+    
+    .form-header {
+        padding: 20px;
+    }
+    
+    .provider-form {
+        padding: 20px;
+    }
+    
+    .form-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn {
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    .status-card,
+    .success-card {
+        padding: 30px 20px;
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-header h2 {
+        font-size: 1.5rem;
+    }
+    
+    .form-subtitle {
+        font-size: 0.9rem;
+    }
+    
+    .form-section h3 {
+        font-size: 1.1rem;
+    }
+}
