@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - db
+    restart: always
+
+  db:
+    image: mariadb:11.3
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: tienda
+      MYSQL_USER: tienda_user
+      MYSQL_PASSWORD: tienda_pass
+    ports:
+      - "3306:3306"
+    volumes:
+      - comercializadora_docker_db_data:/var/lib/mysql
+
+volumes:
+  comercializadora_docker_db_data:
+    external: true
